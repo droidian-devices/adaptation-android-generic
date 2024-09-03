@@ -1,0 +1,19 @@
+Source: adaptation-android-generic
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: adaptation-android-generic
+Architecture: all
+Depends: ${misc:Depends},
+         adaptation-android-generic (= ${binary:Version})
+Description: Droidian adaptation for generic devices - metapackage
+
+Package: adaptation-android-generic-configs
+Architecture: all
+Pre-Depends: runonce
+Depends: ${misc:Depends},
+Description: Droidian adaptation for generic devices - adaptation configuration
