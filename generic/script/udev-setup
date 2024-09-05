@@ -7,3 +7,5 @@ cat \
 > /etc/udev/rules.d/70-droidian.rules
 
 udevadm trigger
+
+exit 0
