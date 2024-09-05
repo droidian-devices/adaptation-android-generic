@@ -9,7 +9,7 @@ Standards-Version: 4.5.0.3
 Package: adaptation-android-generic
 Architecture: all
 Depends: ${misc:Depends},
-         adaptation-android-generic (= ${binary:Version})
+         adaptation-android-generic-configs (= ${binary:Version})
 Description: Droidian adaptation for generic devices - metapackage
 
 Package: adaptation-android-generic-configs
